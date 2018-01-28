@@ -1,0 +1,110 @@
+body {
+  background-color: black;
+}
+
+#background {
+  width: 1500px;
+  height: 1100px;
+  margin: auto;
+  background-color: #484848;
+}
+
+#head {
+  margin-right: 210px;
+  padding-top: 1px;
+  text-align: right;
+}
+
+#logo {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  margin-left: -1030px;
+  margin-top: 15px;
+}
+
+#main {
+
+}
+
+#main-div {
+  width: 100%;
+  height: 100%;
+}
+
+#main-image {
+  width: 1050px;
+  height: 450px;
+  margin-left: 245px;
+}
+
+#featured-work-text {
+  padding-left: 1em;
+  padding-top: 1em;
+  margin-left: 240px;
+  font-size: 40px;
+  padding: inherit;
+  color: white;
+}
+
+#featured-work-div {
+  margin-left: 224px;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: inherit;
+}
+
+#featured-links-div {
+  margin-left: 212px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+#app-names-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#eclipse {
+  margin-left: 350px;
+}
+
+#wayfarer {
+  margin-left: 225px;
+}
+
+#arcana {
+  margin-left: 228px;
+}
+
+#eclipse-link {
+  margin-left: 37px;
+}
+
+#wayfarer-link {
+  margin-left: 87px;
+}
+
+#arcana-link {
+  margin-left: 85px;
+}
+
+.featured-links {
+  padding-left: 50px;
+  margin-left: 30px;
+}
+
+.featured-work-images {
+  width: 331px;
+  height: 200px;
+  padding: 1em;
+}
+
+.app-names {
+  font-size: 40px;
+}
