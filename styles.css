@@ -16,11 +16,11 @@ body {
 }
 
 #logo {
-  width: 90px;
-  height: 90px;
+  width: 110px;
+  height: 110px;
   position: absolute;
   margin-left: -1030px;
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 #main {
