@@ -73,33 +73,27 @@ body {
 }
 
 #eclipse {
-  margin-left: 350px;
-  order: <1>;
+  margin-left: 120px;
 }
 
 #wayfarer {
-  margin-left: 225px;
-  order: <2>;
+  margin-left: 100px;
 }
 
 #arcana {
-  margin-left: 228px;
-  order: <3>;
+  margin-left: 110px;
 }
 
 #eclipse-link {
-  margin-left: 37px;
-  order: <1>;
+  margin-left: 47px;
 }
 
 #wayfarer-link {
-  margin-left: 87px;
-  order: <2>;
+  margin-left: 50px;
 }
 
 #arcana-link {
-  margin-left: 85px;
-  order: <3>;
+  margin-left: 40px;
 }
 
 .featured-links {
@@ -109,6 +103,7 @@ body {
 
 .featured-work-images {
   width: 331px;
+  height: 195px;
   align-self: center;
   padding: 1em;
 }
