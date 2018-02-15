@@ -6,24 +6,32 @@ body {
   max-width: 1500px;
   margin: auto;
   background-color: #484848;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #head {
   margin-right: 210px;
   padding-top: 1px;
   text-align: right;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #logo {
   width: 110px;
-  height: 110px;
   position: absolute;
-  margin-left: -1030px;
-  margin-top: 5px;
+  /* margin-left: -1030px; */
+  /* margin-top: 5px; */
+}
+
+.title {
+  display: flex;
 }
 
 #main {
-
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #main-div {
@@ -33,7 +41,7 @@ body {
 
 #main-image {
   max-width: 58%;
-  margin-left: 277px;
+  /* margin-left: 277px; */
 }
 
 .featured-work {
@@ -41,10 +49,15 @@ body {
   flex-wrap: wrap;
 }
 
+.featured-work-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 #featured-work-text {
   padding-left: 1em;
   padding-top: 1em;
-  margin-left: 240px;
+  /* margin-left: 240px; */
   font-size: 40px;
   padding: inherit;
   color: white;
@@ -60,7 +73,7 @@ body {
 }
 
 #featured-links-div {
-  margin-left: 212px;
+  /* margin-left: 212px; */
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -73,37 +86,37 @@ body {
 }
 
 #eclipse {
-  margin-left: 120px;
+  /* margin-left: 120px; */
 }
 
 #wayfarer {
-  margin-left: 100px;
+  /* margin-left: 100px; */
 }
 
 #arcana {
-  margin-left: 110px;
+  /* margin-left: 110px; */
 }
 
 #eclipse-link {
-  margin-left: 47px;
+  /* margin-left: 47px; */
 }
 
 #wayfarer-link {
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
 #arcana-link {
-  margin-left: 40px;
+  /* margin-left: 40px; */
 }
 
 .featured-links {
   padding-left: 50px;
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 
 .featured-work-images {
   width: 331px;
-  height: 195px;
+  /* height: 195px; */
   align-self: center;
   padding: 1em;
 }
