@@ -1,0 +1,52 @@
+.background {
+  background-color: #474747;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex {
+  width:100%;
+}
+.logo {
+  width: 7.8%;
+  margin-bottom: -10px;
+}
+.name-title {
+  margin-left: 300px;
+  margin-top: -70px;
+}
+.name {
+  font-size: 46px;
+  margin-left: 200px;
+}
+.title {
+  font-size: 32px;
+}
+.main-image {
+  width: 70.7%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+.featured-work-text {
+  color: white;
+  font-size: 36px;
+}
+.app-image {
+  width: 21%;
+  padding: 1em;
+}
+.app-container {
+  text-align: center;
+}
+.app-name {
+
+}
+.align-to-center {
+  margin-left: 208px;
+}
