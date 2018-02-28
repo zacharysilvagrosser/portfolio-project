@@ -43,15 +43,23 @@
   font-size: 36px;
 }
 .app-image {
-  width: 50%;
+  width: 75%;
 }
 .app-container {
   text-align: center;
   width: 100%;
 }
-.app-name {
-
-}
 .align-to-center {
   margin-left: 208px;
+}
+@media only screen and (max-width: 1120px)  {
+  .name {
+    font-size: 23px;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .featured-work-text {
+    font-size: 18px;
+  }
 }
