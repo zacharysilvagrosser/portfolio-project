@@ -4,33 +4,41 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 .header {
   justify-content: space-between;
 }
+
 .container {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
 }
+
 .flex {
   width: 100%;
   display: flex;
   align-items: center;
 }
+
 .logo {
   width: 7.8%;
 }
+
 .name-title {
   display: flex;
   flex-direction: column;
   margin-right: 210px;
 }
+
 .name {
   font-size: 46px;
 }
+
 .title {
   font-size: 32px;
 }
+
 .main-image {
   width: 70.7%;
   display: block;
@@ -38,28 +46,109 @@
   margin-right: auto;
   margin-top: 10px;
 }
+
 .featured-work-text {
   color: white;
   font-size: 36px;
 }
+
 .app-image {
   width: 75%;
 }
+
 .app-container {
   text-align: center;
   width: 100%;
 }
+
 .align-to-center {
   margin-left: 208px;
 }
+
 @media only screen and (max-width: 1120px)  {
   .name {
     font-size: 23px;
   }
+
   .title {
     font-size: 16px;
   }
+
   .featured-work-text {
+    font-size: 22px;
+    margin-left: 120px;
+  }
+
+  .app-name {
+    font-size: 20px;
+  }
+
+  .app-link {
+    font-size: 14px;
+  }
+
+  .logo {
+    margin-left: 100px;
+  }
+
+  .name-title {
+    margin-right: 150px;
+  }
+
+}
+
+@media only screen and (max-width: 775px) {
+  .name {
     font-size: 18px;
   }
+
+  .title {
+    font-size: 10px;
+  }
+
+  .featured-work-text {
+    font-size: 18px;
+    margin-left: 80px;
+  }
+
+  .app-name {
+    font-size: 15px;
+  }
+
+  .app-link {
+    font-size: 11px;
+  }
+
+  .name-title {
+    margin-right: 100px;
+  }
+
+  .logo {
+    margin-left: 80px;
+  }
+
+}
+
+@media only screen and (max-width: 550px) {
+  .featured-work-text {
+    font-size: 14px;
+    margin-left: 55px;
+  }
+
+  .app-name {
+    font-size: 12px;
+  }
+
+  .app-link {
+    font-size: 8px;
+  }
+
+  .name-title {
+    margin-right: 50px;
+  }
+
+  .logo {
+    margin-left: 50px;
+  }
+
 }
